@@ -167,7 +167,107 @@ class Product {
         });
     }
 }
+class Order {
+    fetchOrders(req, res){
+        const Qry = `SELECT * FROM Orders;`;
+        conDB.query(Qry, (err, results) => {
+            if (err) throw err;
+            res.status(200).json({ results: results })
+        });
+    }
+    fetchOrder(req, res) {
+        const Qry = `SELECT * FROM Orders WHERE order_id = ?;`;
+        conDB.query(Qry, [req.params.id], (err, results)=> {
+            if(err) throw err;
+            res.status(200).json({ results: results });
+        });
+    }
+    addOrder(req, res) {
+        const Qry = `INSERT INTO Orders SET ?;`;
+        conDB(Qry, [req.body, req.params.id], (err)=>{
+            if(err) {
+                res.status(400).json({ err:
+                "Unable to Insert Into a New Record..."});
+            }else{
+                res.status(200).json({ msg:
+                "Order Was Successfully Saved!!!"});
+            }
+        });
+    }
+    updateOrder(req, res){
+        const Qry = 
+        `UPDATE Orders SET ? WHERE order_id = ?;`;
+        conDB.query(Qry, [req.body, req.params.id], (err)=>{
+            if(err){
+                res.status(400).json({err});
+            }else{
+                res.status(200).json({ msg:
+                "Orders Details Updated Successfully..."});
+            }
+        });
+    }
+    deleteOrder(req, res){
+        const Qry = `DELETE FROM Orders WHERE order_id = ?;`;
+        conDB.query(Qry, [req.params.id], (err)=>{
+            if(err) res.status(400).json({ err:
+            "This Record Cannot Be Found..." });
+            res.status(200).json({ msg: 
+            "A Order Was Deleted Successfully..."})
+        });
+    }
+}
+class Category {
+    fetchCategories(req, res){
+        const Qry = `SELECT * FROM Category;`;
+        conDB.query(Qry, (err, results) => {
+            if (err) throw err;
+            res.status(200).json({ results: results })
+        });
+    }
+    fetchCategory(req, res) {
+        const Qry = `SELECT * FROM Category WHERE category_id = ?;`;
+        conDB.query(Qry, [req.params.id], (err, results)=> {
+            if(err) throw err;
+            res.status(200).json({ results: results });
+        });
+    }
+    addProduct(req, res) {
+        const Qry = `INSERT INTO Category SET ?;`;
+        conDB(Qry, [req.body, req.params.id], (err)=>{
+            if(err) {
+                res.status(400).json({ err:
+                "Unable to Insert Into a New Record..."});
+            }else{
+                res.status(200).json({ msg:
+                "Category Was Successfully Saved!!!"});
+            }
+        });
+    }
+    updateProduct(req, res){
+        const Qry = 
+        `UPDATE Category SET ? WHERE category_id = ?;`;
+        conDB.query(Qry, [req.body, req.params.id], (err)=>{
+            if(err){
+                res.status(400).json({err});
+            }else{
+                res.status(200).json({ msg:
+                "Category Details Updated Successfully..."});
+            }
+        });
+    }
+    deleteProduct(req, res){
+        const Qry = `DELETE FROM Category WHERE category_id = ?;`;
+        conDB.query(Qry, [req.params.id], (err)=>{
+            if(err) res.status(400).json({ err:
+            "This Record Cannot Be Found..." });
+            res.status(200).json({ msg: 
+            "A Category Was Deleted Successfully..."})
+        });
+    }
+}
 module.exports = {
     User,
-    Product
+    Product,
+    Order,
+    Category
 }
