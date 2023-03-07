@@ -8,3 +8,4 @@ let conDB = mysql.createConnection({
     database: process.env.DB,
     multipleStatements: true,
 });
+module.exports = conDB;
