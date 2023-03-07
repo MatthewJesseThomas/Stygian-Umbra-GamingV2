@@ -13,3 +13,11 @@ app.use((req, res, next)=> {
     res.header('Access-Control-Allow-Headers', "*");
     next();
 });
+app.use(route);
+app.use(cors(), cookieParser(), express.json, express.urlencoded({extended: false}));
+
+app.listen(Port, ()=>{
+    console.log(`Server Streaming on Port: ${Port}`);
+    console.log(`Cessation Of Server: Ctrl + C`);
+});
+app.use(errorHandling);
