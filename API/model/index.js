@@ -7,8 +7,8 @@ const { createToken } = require('../middleware/AuthenticatedUser.js')
 class User {
     login(req, res){
         const{ emailAdd, user_password } = req.body;
-        const Qry = `SELECT user_id, firstName, lastName, gender, cellphoneNumber, emailAdd, user_password, userRole, userProfile, joiDate, cart 
-        FROM USERS
+        const Qry = `SELECT user_id, firstName, lastName, gender, cellphoneNumber, emailAdd, user_password, userRole, userProfile, joinDate, cart 
+        FROM Users
         WHERE emailAdd = '${emailAdd}';`;
         conDB.query(Qry, async (err, data)=>{
             if(err) throw err;
@@ -135,7 +135,7 @@ class Product {
     }
     addProduct(req, res) {
         const Qry = `INSERT INTO Products SET ?;`;
-        conDB(Qry, [req.body, req.params.id], (err)=>{
+        conDB.query(Qry, [req.body, req.params.id], (err)=>{
             if(err) {
                 res.status(400).json({ err:
                 "Unable to Insert Into a New Record..."});
@@ -231,7 +231,7 @@ class Category {
             res.status(200).json({ results: results });
         });
     }
-    addProduct(req, res) {
+    addCategory(req, res) {
         const Qry = `INSERT INTO Category SET ?;`;
         conDB(Qry, [req.body, req.params.id], (err)=>{
             if(err) {
@@ -243,7 +243,7 @@ class Category {
             }
         });
     }
-    updateProduct(req, res){
+    updateCategory(req, res){
         const Qry = 
         `UPDATE Category SET ? WHERE category_id = ?;`;
         conDB.query(Qry, [req.body, req.params.id], (err)=>{
@@ -255,7 +255,7 @@ class Category {
             }
         });
     }
-    deleteProduct(req, res){
+    deleteCategory(req, res){
         const Qry = `DELETE FROM Category WHERE category_id = ?;`;
         conDB.query(Qry, [req.params.id], (err)=>{
             if(err) res.status(400).json({ err:
