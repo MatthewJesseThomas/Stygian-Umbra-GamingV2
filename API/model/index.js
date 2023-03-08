@@ -184,7 +184,7 @@ class Order {
     }
     addOrder(req, res) {
         const Qry = `INSERT INTO Orders SET ?;`;
-        conDB(Qry, [req.body, req.params.id], (err)=>{
+        conDB.query(Qry, [req.body, req.params.id], (err)=>{
             if(err) {
                 res.status(400).json({ err:
                 "Unable to Insert Into a New Record..."});
@@ -233,7 +233,7 @@ class Category {
     }
     addCategory(req, res) {
         const Qry = `INSERT INTO Category SET ?;`;
-        conDB(Qry, [req.body, req.params.id], (err)=>{
+        conDB.query(Qry, [req.body, req.params.id], (err)=>{
             if(err) {
                 res.status(400).json({ err:
                 "Unable to Insert Into a New Record..."});
