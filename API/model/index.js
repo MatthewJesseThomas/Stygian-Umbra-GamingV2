@@ -1,5 +1,3 @@
-const express = require('express');
-const router = express.Router();
 const conDB = require('../config/index.js');
 const { hash, compare, hashSync } = require('bcrypt');
 const { createToken } = require('../middleware/AuthenticatedUser.js')
