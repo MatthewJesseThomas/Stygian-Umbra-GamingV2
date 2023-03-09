@@ -22,9 +22,11 @@ export default {};
   display: flex;
 }
 nav {
-  box-shadow: 0.3vw 0.5vw 0.45vw 0.1vw;
- 
-
+  box-shadow: 0.3vw 0.5vw 0.45vw 0.1vw black;
+  position: relative;
+  width: 100%;
+  top: 0;
+  z-index: auto;
   align-items: center;
 }
 .nav-item:hover {
