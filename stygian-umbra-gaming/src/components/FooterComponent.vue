@@ -1,4 +1,5 @@
 <template>
+  <br>
   <div>
     <footer class="bg-dark text-white">
       <p class="copy">
@@ -18,14 +19,11 @@
 <script>
 export default {};
 </script>
-<style>
+<style scoped>
 footer {
   margin: auto;
-  margin-top: 5rem;
-  width: 100vw;
-  bottom: 0;
-}
-.copy{
-margin: auto;
+  margin-bottom: -1rem;
+  position: relative;
+  width: 100%;
 }
 </style>
