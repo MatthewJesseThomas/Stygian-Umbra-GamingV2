@@ -10,6 +10,7 @@ class User {
         WHERE emailAdd = '${emailAdd}';`;
         conDB.query(Qry, async (err, data)=>{
             if(err) throw err;
+            console.log(err);
             if ((!data.length) || (data == null)) {
                 res.status(401).json({
                     err:
@@ -18,6 +19,7 @@ class User {
             } else {
                 await compare(user_password, data[0].user_password, (cErr, cResult) => {
                     if(cErr) throw cErr;
+                    console.log(cErr);
                     const jwToken = 
                         createToken(
                             {
@@ -48,6 +50,7 @@ class User {
         `SELECT user_id, firstName, lastName, gender, cellphoneNumber, emailAdd, user_password, userRole, userProfile, joinDate, cart
         FROM Users;`;
         conDB.query(Qry, (err, data)=>{
+            console.log(err);
             if(err) throw err;
             else res.status(200).json(
                 { results: data }
@@ -61,6 +64,7 @@ class User {
         WHERE user_id = ?;
         `;
         conDB.query(Qry, [req.params.id], (err, data)=>{
+            console.log(err);
             if(err) throw err;
             else res.status(200).json(
                 { results: data }
@@ -81,6 +85,7 @@ class User {
         conDB.query(Qry, [userDetails], (err)=>{
             if (err) {
                 res.status(401).json({ err });
+                console.log(err);
             } else {
                 const jwToken = createToken(user);
                 res.cookie("LegitUser...", jwToken, {
@@ -110,6 +115,7 @@ class User {
         conDB.query(Qry, [req.params.id], 
              (err) => {
                 if (err) throw err;
+                console.log(err);
                 res.status(200).json({
                     msg: "A User Record Was Removed From Stygian-Umbra-GamingDB..."
                 });
@@ -121,6 +127,7 @@ class Product {
         const Qry = `SELECT * FROM Products;`;
         conDB.query(Qry, (err, results) => {
             if (err) throw err;
+            console.log(err);
             res.status(200).json({ results: results })
         });
     }
@@ -128,6 +135,7 @@ class Product {
         const Qry = `SELECT * FROM Products WHERE product_id = ?;`;
         conDB.query(Qry, [req.params.id], (err, results)=> {
             if(err) throw err;
+            console.log(err);
             res.status(200).json({ results: results });
         });
     }
@@ -137,6 +145,7 @@ class Product {
             if(err) {
                 res.status(400).json({ err:
                 "Unable to Insert Into a New Record..."});
+                console.log(err);
             }else{
                 res.status(200).json({ msg:
                 "Product Was Successfully Saved!!!"});
@@ -148,6 +157,7 @@ class Product {
         `UPDATE Products SET ? WHERE product_id = ?;`;
         conDB.query(Qry, [req.body, req.params.id], (err)=>{
             if(err){
+                console.log(err);
                 res.status(400).json({err});
             }else{
                 res.status(200).json({ msg:
@@ -160,6 +170,7 @@ class Product {
         conDB.query(Qry, [req.params.id], (err)=>{
             if(err) res.status(400).json({ err:
             "This Record Cannot Be Found..." });
+            console.log(err);
             res.status(200).json({ msg: 
             "A Product Was Deleted Successfully..."})
         });
@@ -169,6 +180,7 @@ class Order {
     fetchOrders(req, res){
         const Qry = `SELECT * FROM Orders;`;
         conDB.query(Qry, (err, results) => {
+            console.log(err);
             if (err) throw err;
             res.status(200).json({ results: results })
         });
@@ -176,6 +188,7 @@ class Order {
     fetchOrder(req, res) {
         const Qry = `SELECT * FROM Orders WHERE order_id = ?;`;
         conDB.query(Qry, [req.params.id], (err, results)=> {
+            console.log(err);
             if(err) throw err;
             res.status(200).json({ results: results });
         });
@@ -184,6 +197,7 @@ class Order {
         const Qry = `INSERT INTO Orders SET ?;`;
         conDB.query(Qry, [req.body, req.params.id], (err)=>{
             if(err) {
+                console.log(err);
                 res.status(400).json({ err:
                 "Unable to Insert Into a New Record..."});
             }else{
@@ -197,6 +211,7 @@ class Order {
         `UPDATE Orders SET ? WHERE order_id = ?;`;
         conDB.query(Qry, [req.body, req.params.id], (err)=>{
             if(err){
+                console.log(err);
                 res.status(400).json({err});
             }else{
                 res.status(200).json({ msg:
@@ -209,6 +224,7 @@ class Order {
         conDB.query(Qry, [req.params.id], (err)=>{
             if(err) res.status(400).json({ err:
             "This Record Cannot Be Found..." });
+            console.log(err);
             res.status(200).json({ msg: 
             "A Order Was Deleted Successfully..."})
         });
@@ -219,6 +235,7 @@ class Category {
         const Qry = `SELECT * FROM Category;`;
         conDB.query(Qry, (err, results) => {
             if (err) throw err;
+            console.log(err);
             res.status(200).json({ results: results })
         });
     }
@@ -226,6 +243,7 @@ class Category {
         const Qry = `SELECT * FROM Category WHERE category_id = ?;`;
         conDB.query(Qry, [req.params.id], (err, results)=> {
             if(err) throw err;
+            console.log(err);
             res.status(200).json({ results: results });
         });
     }
@@ -235,6 +253,7 @@ class Category {
             if(err) {
                 res.status(400).json({ err:
                 "Unable to Insert Into a New Record..."});
+                console.log(err);
             }else{
                 res.status(200).json({ msg:
                 "Category Was Successfully Saved!!!"});
@@ -246,6 +265,7 @@ class Category {
         `UPDATE Category SET ? WHERE category_id = ?;`;
         conDB.query(Qry, [req.body, req.params.id], (err)=>{
             if(err){
+                console.log(err);
                 res.status(400).json({err});
             }else{
                 res.status(200).json({ msg:
@@ -258,6 +278,7 @@ class Category {
         conDB.query(Qry, [req.params.id], (err)=>{
             if(err) res.status(400).json({ err:
             "This Record Cannot Be Found..." });
+            console.log(err);
             res.status(200).json({ msg: 
             "A Category Was Deleted Successfully..."})
         });
