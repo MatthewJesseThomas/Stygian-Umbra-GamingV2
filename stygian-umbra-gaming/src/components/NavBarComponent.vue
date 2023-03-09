@@ -1,15 +1,17 @@
 <template>
-  <nav class="bg-dark">
+  <nav class="bg-dark d-flex justify-content-between">
         <a href="../views/HomeView.vue">
           <img class="logo" src="https://i.postimg.cc/C5THHRQf/Facets.jpg" alt="Logo">
         </a>
-       | <router-link to="/">Home</router-link> |
-       | <router-link to="/about">About</router-link> |
-       | <router-link to="/contact">Contact</router-link> |
-       | <router-link to="/product">Product</router-link> |
-       | <router-link to="/cart">Cart</router-link> |
-       | <router-link to="/SignIn">SignIn</router-link> |
-       | <router-link to="/register">Register</router-link> |
+        <div>
+          <router-link to="/">Home</router-link> |
+          <router-link to="/about">About</router-link> |
+          <router-link to="/contact">Contact</router-link> |
+          <router-link to="/product">Product</router-link> |
+          <router-link to="/cart">Cart</router-link> |
+          <router-link to="/SignIn">SignIn</router-link> |
+          <router-link to="/register">Register</router-link> |
+        </div>
       </nav>
 </template>
 <script>
