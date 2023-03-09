@@ -1,6 +1,14 @@
 <template>
+    <h1 class="text-white kage display-2 fw-bolder mt-5">Stygian Umbra Gaming</h1>
+    <br>
+    <h2 class="display-3 text-white">•Welcome Dear Customer•</h2>
+    <br>
+    <h3 class="display-4 text-white">“Vengeance is in my heart, death in my hand, Blood and revenge are hammering in my head” ― William Shakespeare, Titus Andronicus</h3>
+    <br>
+    <h2 class="display-3 text-white">•Statement of Objectives•</h2>
+    <br>
+    <h3 class="display-4 text-white">“Aiming for a Tactful and well Formulated Approach with Angular Intentions For our Patrons and Community measured with reference” - ZileD-ArcHorse-Development, Matthew Thomas</h3>
 <div class="home">
-    <h1 class="text-white kage display-3 fw-bolder">Stygian Umbra Gaming</h1>
     <section class="container-fluid sect">
       <div class="wrapper text-center">
           <br>
@@ -19,74 +27,34 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="https://i.postimg.cc/Hs9KxMSK/Assasins-Creed-Valhalla.jpg" class="resize d-block w-100" alt="Game1" loading="lazy">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Assassins Creed Valhalla</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
+                <img src="https://i.postimg.cc/QMc0Bpd7/Assassins-Creed-Valhalla.jpg" class="resize d-block w-100" alt="Game1" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/W431m0Cd/Forza-Horizon-5.jpg" class="resize d-block w-100" alt="Game2" loading="lazy">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Forza Horizon 5</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
+                <img src="https://i.postimg.cc/90H4D7zD/Forza-Horizon-5.jpg" class="resize d-block w-100" alt="Game2" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/bYLPVdbQ/Fortnite.jpg" class="resize d-block w-100" alt="Game3" loading="lazy">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Fortnite</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
+                <img src="https://i.postimg.cc/sx1VDf4M/Fortnite.jpg" class="resize d-block w-100" alt="Game3" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/xdMn3ggT/dishonored-5.jpg" class="resize d-block w-100" alt="Game4" loading="lazy">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Dishonoured</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
+                <img src="https://i.postimg.cc/7Z4ZS4xW/Dishonored-The-Return-of-Daud.jpg" class="resize d-block w-100" alt="Game4" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/jS9y7qkY/Resident-Evil-Village.png" class="resize d-block w-100" alt="Game5" loading="lazy">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Resident Evil Village</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
+                <img src="https://i.postimg.cc/XvmMcKfY/Resident8-Evil-Village.jpg" class="resize d-block w-100" alt="Game5" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/x1S2TLnw/Halo-Infinite.png" class="resize d-block w-100" alt="Game6" loading="lazy">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Halo Infinite</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
+                <img src="https://i.postimg.cc/QtG4dfg1/Halo-Infinite.jpg" class="resize d-block w-100" alt="Game6" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/s2hHBNmK/masseffect3-sq-1641945184920.jpg" class="resize d-block w-100" alt="Game7" loading="lazy">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Mass Effect 3</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
+                <img src="https://i.postimg.cc/5yfswjRt/Mass-Effect-3.jpg" class="resize d-block w-100" alt="Game7" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/T3LpBzTR/The-Elder-Scrolls-Online-Tamriel-Unlimited.jpg" class="resize d-block w-100" alt="Game8" loading="lazy">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>The Elder Scrolls Online Tamriel Unlimited</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
+                <img src="https://i.postimg.cc/zfBxJptX/Elder-Scrolls-Online.jpg" class="resize d-block w-100" alt="Game8" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/m2QmG5VG/Logo-of-Stardew-Valley.png" class="resize d-block w-100" alt="Game9" loading="lazy">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Stardew Valley.</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
+                <img src="https://i.postimg.cc/pXs82vgz/Stardew-Valley.jpg" class="resize d-block w-100" alt="Game9" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/ZKKx1596/Elden-Ring.jpg" class="resize d-block w-100" alt="Game10" loading="lazy">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Elden Ring</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
+                <img src="https://i.postimg.cc/x1WXC1gJ/Elden-Ring.jpg" class="resize d-block w-100" alt="Game10" loading="lazy">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
