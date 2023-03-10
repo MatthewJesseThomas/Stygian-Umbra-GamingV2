@@ -7,8 +7,8 @@
     <br>
     <h2 class="display-3 text-white">•Statement of Objectives•</h2>
     <br>
-    <h3 class="display-4 text-white">“Aiming for a Tactful and well Formulated Approach with Angular Intentions For our Patrons and Community measured with reference” - ZileD-ArcHorse-Development, Matthew Thomas</h3>
-<div class="home">
+    <h3 class="display-4 text-white">“Aiming for a Tactful and well Formulated Approach with Angular Intentions For our Patrons and Community measured with reference” - ZileD-ArcHorse-Development, Matthew Thomas...</h3>
+<div class="home mt-1">
     <section class="container-fluid sect">
       <div class="wrapper text-center">
           <br>
@@ -27,34 +27,34 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="'https://i.postimg.cc/RFFXcvGt/Assassins-Creed-Valhalla.jpg'" class="resize d-block w-100" alt="Game1" loading="lazy">
+                <img src="https://i.postimg.cc/QMc0Bpd7/Assassins-Creed-Valhalla.jpg" class="resize d-block w-100" alt="Game1" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="'https://i.postimg.cc/1t22XgPX/Forza-Horizon-5.jpg'" class="resize d-block w-100" alt="Game2" loading="lazy">
+                <img src="https://i.postimg.cc/90H4D7zD/Forza-Horizon-5.jpg" class="resize d-block w-100" alt="Game2" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/qRFcdyrb/Fortnite.jpg" class="resize d-block w-100" alt="Game3" loading="lazy">
+                <img src="https://i.postimg.cc/sx1VDf4M/Fortnite.jpg" class="resize d-block w-100" alt="Game3" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/6Qjby7wR/Dishonored-The-Return-Of-Daud.jpg" class="resize d-block w-100" alt="Game4" loading="lazy">
+                <img src="https://i.postimg.cc/7Z4ZS4xW/Dishonored-The-Return-of-Daud.jpg" class="resize d-block w-100" alt="Game4" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/gkzhBg3z/Resident-Evil-Village.jpg" class="resize d-block w-100" alt="Game5" loading="lazy">
+                <img src="https://i.postimg.cc/XvmMcKfY/Resident8-Evil-Village.jpg" class="resize d-block w-100" alt="Game5" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/63x2Vc9N/Halo-Infinite.jpg" class="resize d-block w-100" alt="Game6" loading="lazy">
+                <img src="https://i.postimg.cc/QtG4dfg1/Halo-Infinite.jpg" class="resize d-block w-100" alt="Game6" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/yxSGq7MR/Mass-Effect-3.jpg" class="resize d-block w-100" alt="Game7" loading="lazy">
+                <img src="https://i.postimg.cc/5yfswjRt/Mass-Effect-3.jpg" class="resize d-block w-100" alt="Game7" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/rzXPMvTP/Elder-Scrolls-Online.jpg" class="resize d-block w-100" alt="Game8" loading="lazy">
+                <img src="https://i.postimg.cc/zfBxJptX/Elder-Scrolls-Online.jpg" class="resize d-block w-100" alt="Game8" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/L5zrYHxp/Stardew-Valley.jpg" class="resize d-block w-100" alt="Game9" loading="lazy">
+                <img src="https://i.postimg.cc/pXs82vgz/Stardew-Valley.jpg" class="resize d-block w-100" alt="Game9" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/VNdp99K4/Elden-Ring.jpg" class="resize d-block w-100" alt="Game10" loading="lazy">
+                <img src="https://i.postimg.cc/x1WXC1gJ/Elden-Ring.jpg" class="resize d-block w-100" alt="Game10" loading="lazy">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
