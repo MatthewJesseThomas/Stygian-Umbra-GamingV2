@@ -33,7 +33,7 @@
                 <img src="https://i.postimg.cc/90H4D7zD/Forza-Horizon-5.jpg" class="resize d-block w-100" alt="Game2" loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.postimg.cc/sx1VDf4M/Fortnite.jpg" class="resize d-block w-100" alt="Game3" loading="lazy">
+                <img src="https://i.postimg.cc/wMQxzZbT/Fortnite.jpg" class="resize d-block w-100" alt="Game3" loading="lazy">
               </div>
               <div class="carousel-item">
                 <img src="https://i.postimg.cc/7Z4ZS4xW/Dishonored-The-Return-of-Daud.jpg" class="resize d-block w-100" alt="Game4" loading="lazy">
