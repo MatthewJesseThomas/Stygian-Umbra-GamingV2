@@ -1,4 +1,7 @@
 <template>
+  <br>
+  <br>
+  <br>
     <h1 class="text-white kage display-2 fw-bolder mt-5">Stygian Umbra Gaming</h1>
     <br>
     <h2 class="display-3 text-white">•Welcome Dear Customer•</h2>
