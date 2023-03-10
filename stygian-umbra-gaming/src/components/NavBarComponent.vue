@@ -1,18 +1,63 @@
 <template>
-  <nav class="bg-dark d-flex justify-content-between">
-        <a href="../views/HomeView.vue">
-          <img class="logo" src="https://i.postimg.cc/C5THHRQf/Facets.jpg" alt="Logo">
-        </a>
-        <div>
-          <router-link to="/">Home</router-link> |
-          <router-link to="/about">About</router-link> |
-          <router-link to="/contact">Contact</router-link> |
-          <router-link to="/product">Product</router-link> |
-          <router-link to="/cart">Cart</router-link> |
-          <router-link to="/SignIn">SignIn</router-link> |
-          <router-link to="/register">Register</router-link> |
+  <nav class="navbar navbar-dark bg-dark fixed-top mb-5">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../views/HomeView.vue">
+        <img class="logo" src="https://i.postimg.cc/C5THHRQf/Facets.jpg" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title mx-4" id="offcanvasDarkNavbarLabel">◉STYGIAN UMBRA GAMING◉</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-      </nav>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">
+                <router-link class="navLink" to="/">Home</router-link>
+                </a>
+            </li>
+            <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">
+                    <router-link class="navLink" to="/about">About</router-link>
+                  </a>
+            </li>
+                <li class="nav-item">
+                  <a class="dropdown-item" href="#">
+                    <router-link class="navLink" to="/contact">Contact</router-link>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="dropdown-item" href="#">
+                    <router-link class="navLink" to="/product">Product</router-link>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="dropdown-item" href="#">
+                    <router-link class="navLink" to="/cart">Cart</router-link>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="dropdown-item" href="#">
+                    <router-link class="navLink" to="/SignIn">SignIn</router-link>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="dropdown-item" href="#">
+                    <router-link class="navLink" to="/register">Register</router-link>
+                  </a>
+              </li>
+              </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
 </template>
 <script>
 export default {};
@@ -32,7 +77,7 @@ nav {
   align-items: center;
 }
 .nav-item:hover {
-  scale: 1.05;
+  scale: 1.1;
 }
 .navLink:hover {
   color: #42b983;
