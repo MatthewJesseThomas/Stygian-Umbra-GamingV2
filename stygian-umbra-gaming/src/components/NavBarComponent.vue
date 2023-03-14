@@ -41,12 +41,12 @@
               </li>
               <li class="nav-item">
                   <a class="dropdown-item" href="#">
-                    <router-link class="navLink" to="/login">Login</router-link>
+                    <router-link class="navLink" to="/loginregister">Login/Register</router-link>
                   </a>
               </li>
               <li class="nav-item">
                   <a class="dropdown-item" href="#">
-                    <router-link class="navLink" to="/register">Register</router-link>
+                    <router-link class="navLink" to="/admin">Admin</router-link>
                   </a>
               </li>
               </ul>
