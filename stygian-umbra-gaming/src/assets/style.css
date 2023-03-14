@@ -6,7 +6,7 @@
     --redColor: rgb(102, 11, 11);
     --whiteText:white;
     /* none | h-offset (X) v-offset (Y) blur spread color |inset|initial|inherit*/
-    --mainBoxShadow: .3vw .3vw 1vw rgba(120, 200, 87, 11);
+    --mainBoxShadow: .3vw .3vw 1vw rgba(22, 166, 230);
 }
 *,
 *::after,
