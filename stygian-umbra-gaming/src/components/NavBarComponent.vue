@@ -12,48 +12,61 @@
           <h5 class="offcanvas-title mx-4" id="offcanvasDarkNavbarLabel">◉STYGIAN UMBRA GAMING◉</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
+        <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-suchen suchen" type="submit">Search</button>
+          </form>
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">
-                <router-link class="navLink" to="/">Home</router-link>
-                </a>
+                  <a class="nav-link " aria-current="page" href="#">
+                    <router-link class="navLink nav-name" to="/">Home</router-link>
+                  </a>
             </li>
-            <li class="nav-item">
+            <br>
+            <li class="nav-item mt-1">
                   <a class="nav-link" aria-current="page" href="#">
-                    <router-link class="navLink" to="/about">About</router-link>
+                    <router-link class="navLink nav-name" to="/about">About</router-link>
                   </a>
             </li>
-                <li class="nav-item">
+            <br>
+            <li class="nav-item mt-1">
                   <a class="dropdown-item" href="#">
-                    <router-link class="navLink" to="/contact">Contact</router-link>
+                    <router-link class="navLink nav-name" to="/contact">Contact</router-link>
                   </a>
-              </li>
-              <li class="nav-item">
+            </li>
+            <br>
+            <li class="nav-item mt-1">
                   <a class="dropdown-item" href="#">
-                    <router-link class="navLink" to="/product">Product</router-link>
+                    <router-link class="navLink nav-name" to="/product">Product</router-link>
                   </a>
-              </li>
-              <li class="nav-item">
+            </li>
+            <br>
+            <li class="nav-item mt-1">
                   <a class="dropdown-item" href="#">
-                    <router-link class="navLink" to="/cart">Cart</router-link>
+                    <router-link class="navLink nav-name" to="/cart">Cart</router-link>
                   </a>
-              </li>
-              <li class="nav-item">
+            </li>
+            <br>
+            <li class="nav-item mt-1">
                   <a class="dropdown-item" href="#">
-                    <router-link class="navLink" to="/loginregister">Login/Register</router-link>
+                    <router-link class="navLink nav-name" to="/loginregister">Login/Register</router-link>
                   </a>
-              </li>
-              <li class="nav-item">
+            </li>
+            <br>
+            <li class="nav-item mt-1">
                   <a class="dropdown-item" href="#">
-                    <router-link class="navLink" to="/admin">Admin</router-link>
+                    <router-link class="navLink nav-name" to="/user">User Profile</router-link>
                   </a>
-              </li>
-              </ul>
-          <form class="d-flex mt-3" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-success" type="submit">Search</button>
-          </form>
+            </li>
+            <br>
+            <li class="nav-item mt-1">
+                  <a class="dropdown-item" href="#">
+                    <router-link class="navLink nav-name" to="/admin">Admin</router-link>
+                  </a>
+            </li>
+            <br>
+            </ul>
         </div>
       </div>
     </div>
@@ -82,5 +95,15 @@ nav {
 .navLink:hover {
   color: #42b983;
 }
-
+.suchen{
+  height: 2.45rem;
+  background: #42b983 !important;
+  color: #000 !important;
+}
+.btn-suchen:hover{
+  scale: 1.1;
+}
+.nav-name{
+  font-size: 1.5rem;
+}
 </style>
