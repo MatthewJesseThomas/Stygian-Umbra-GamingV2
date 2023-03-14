@@ -20,52 +20,53 @@
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
                   <a class="nav-link " aria-current="page" href="#">
+                    <i class="bi bi-house-door-fill"></i>
                     <router-link class="navLink nav-name" to="/">Home</router-link>
                   </a>
             </li>
-            <br>
-            <li class="nav-item mt-1">
+            <li class="nav-item">
                   <a class="nav-link" aria-current="page" href="#">
+                    <i class="bi bi-exclamation-circle-fill"></i>
                     <router-link class="navLink nav-name" to="/about">About</router-link>
                   </a>
             </li>
-            <br>
-            <li class="nav-item mt-1">
-                  <a class="dropdown-item" href="#">
+            <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">
+                    <i class="bi bi-person-lines-fill"></i>
                     <router-link class="navLink nav-name" to="/contact">Contact</router-link>
                   </a>
             </li>
-            <br>
-            <li class="nav-item mt-1">
-                  <a class="dropdown-item" href="#">
+            <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">
+                    <i class="bi bi-box2-fill"></i>
                     <router-link class="navLink nav-name" to="/product">Product</router-link>
                   </a>
             </li>
-            <br>
-            <li class="nav-item mt-1">
-                  <a class="dropdown-item" href="#">
+            <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">
+                    <i class="bi bi-cart3"></i>
                     <router-link class="navLink nav-name" to="/cart">Cart</router-link>
                   </a>
             </li>
-            <br>
-            <li class="nav-item mt-1">
-                  <a class="dropdown-item" href="#">
+            <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">
+                    <i class="bi bi-door-open-fill"></i>
                     <router-link class="navLink nav-name" to="/loginregister">Login/Register</router-link>
+                    <i class="bi bi-clipboard2-plus-fill px-3"></i>
                   </a>
             </li>
-            <br>
-            <li class="nav-item mt-1">
-                  <a class="dropdown-item" href="#">
+            <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">
+                    <i class="bi bi-person-circle"></i>
                     <router-link class="navLink nav-name" to="/user">User Profile</router-link>
                   </a>
             </li>
-            <br>
-            <li class="nav-item mt-1">
-                  <a class="dropdown-item" href="#">
+            <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">
+                    <i class="bi bi-person-fill-gear"></i>
                     <router-link class="navLink nav-name" to="/admin">Admin</router-link>
                   </a>
             </li>
-            <br>
             </ul>
         </div>
       </div>
@@ -90,7 +91,7 @@ nav {
   align-items: center;
 }
 .nav-item:hover {
-  scale: 1.1;
+  scale: 1.5;
 }
 .navLink:hover {
   color: #42b983;
@@ -105,5 +106,13 @@ nav {
 }
 .nav-name{
   font-size: 1.5rem;
+}
+.bi{
+  padding: auto;
+  padding-right: 1rem;
+}
+.bi:hover{
+  color: #42b983;
+  scale: .9;
 }
 </style>
