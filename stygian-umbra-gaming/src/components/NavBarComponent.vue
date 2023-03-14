@@ -41,7 +41,7 @@
               </li>
               <li class="nav-item">
                   <a class="dropdown-item" href="#">
-                    <router-link class="navLink" to="/SignIn">SignIn</router-link>
+                    <router-link class="navLink" to="/login">Login</router-link>
                   </a>
               </li>
               <li class="nav-item">
