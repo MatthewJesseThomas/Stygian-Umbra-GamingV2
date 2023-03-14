@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-dark bg-dark fixed-top mb-5">
     <div class="container-fluid">
-      <a class="navbar-brand" href="../views/HomeView.vue">
+      <a class="navbar-brand" href="http://localhost:8080/">
         <img class="logo" src="https://i.postimg.cc/C5THHRQf/Facets.jpg" alt="Logo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
