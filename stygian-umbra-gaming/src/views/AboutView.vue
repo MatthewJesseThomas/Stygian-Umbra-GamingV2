@@ -7,7 +7,7 @@
   </div>
 </template>
 <script>
-import AboutComponent from '../components/AboutComponent.vue.vue'
+import AboutComponent from '../components/AboutComponent.vue'
 export default {
   components: {
     AboutComponent
