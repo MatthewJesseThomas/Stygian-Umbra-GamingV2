@@ -7,7 +7,7 @@ const { createToken } = require('../middleware/AuthenticatedUser.js')
 class User {
     login(req, res){
         const{ emailAdd, user_password } = req.body;
-        const Qry = `SELECT user_id, firstName, lastName, gender, cellphoneNumber, emailAdd, user_password, userRole, userProfile, joinDate, cart 
+        const Qry = `SELECT user_id, firstName, lastName, gender, cellphoneNumber, emailAdd, user_password, userRole, userProfile, joinDate 
         FROM Users
         WHERE emailAdd = '${emailAdd}';`;
         conDB.query(Qry, async (err, data)=>{
@@ -47,7 +47,7 @@ class User {
     }
     fetchUsers(req, res){
         const Qry = 
-        `SELECT user_id, firstName, lastName, gender, cellphoneNumber, emailAdd, user_password, userRole, userProfile, joinDate, cart
+        `SELECT user_id, firstName, lastName, gender, cellphoneNumber, emailAdd, user_password, userRole, userProfile, joinDate
         FROM Users;`;
         conDB.query(Qry, (err, data)=>{
             if(err) throw err;
@@ -58,7 +58,7 @@ class User {
     }
     fetchUser(req, res){
         const Qry = 
-        `SELECT user_id, firstName, lastName, gender, cellphoneNumber, emailAdd, user_password, userRole, userProfile, joinDate, cart
+        `SELECT user_id, firstName, lastName, gender, cellphoneNumber, emailAdd, user_password, userRole, userProfile, joinDate
         FROM Users
         WHERE user_id = ?;
         `;
