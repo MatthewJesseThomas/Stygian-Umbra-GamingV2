@@ -1,0 +1,23 @@
+/* Define custom variables */
+:root {
+    --primaryColor: darkcyan;
+    --secondaryColor: rgb(26, 48, 48);
+    --alternativeColor: rgb(12, 46, 110);
+    --redColor: rgb(102, 11, 11);
+    --whiteText:white;
+    /* none | h-offset (X) v-offset (Y) blur spread color |inset|initial|inherit*/
+    --mainBoxShadow: .3vw .3vw 1vw rgba(22, 166, 230);
+}
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, section {
+    overflow-x: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+}
