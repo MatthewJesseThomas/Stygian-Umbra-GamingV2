@@ -103,7 +103,7 @@ export default {
 }
 </script>
 <style scoped>
-@media(max-width:300px) {
+@media(max-width:299px) {
   .table {
     height: 100%;
     overflow-y: hidden;
