@@ -20,7 +20,7 @@
                   <img :src="user.userProfile" style="width: 150px;">
                   <h5 class="my-3">{{user.firstName + " " + user.lastName}}</h5>
                   <p class="text-muted mb-1">Stygian Umbra Ūsus(User)</p>
-                  <p class="text-muted mb-4">22 San Remo Strandfontein, Mitchell's Palin, Cape Town</p>
+                  <p class="text-muted mb-4">∞ Street Road Area, Suburb, City</p>
                   <div class="d-flex justify-content-center mb-2">
                     <button type="button" v-on:click="edit()" class="btn btn-warning">Edit</button>
                     <button type="button" v-on:click="deleteUser()" class="btn btn-outline-danger ms-1">Delete</button>
@@ -82,7 +82,7 @@
                       <p class="mb-0">Shipping Address</p>
                     </div>
                     <div class="col-sm-9">
-                      <p class="text-muted mb-0">22 San Remo Strandfontein, Mitchell's Palin, 7785, Cape Town, RSA</p>
+                      <p class="text-muted mb-0">∞ Street Road Area, Suburb, City, RSA</p>
                     </div>
                   </div>
                 </div>
