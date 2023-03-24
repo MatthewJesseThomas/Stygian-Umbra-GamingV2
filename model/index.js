@@ -186,7 +186,7 @@ class Order {
         });
     }
     fetchOrder(req, res) {
-        const Qry = `SELECT * FROM Orders WHERE order_id = ?;`;
+        const Qry = `SELECT * FROM Orders INNERJOIN WHERE user_id = ?;`;
         conDB.query(Qry, [req.params.id], (err, results)=> {
             console.log(err);
             if(err) throw err;
