@@ -24,6 +24,7 @@
                   <div class="d-flex justify-content-center mb-2">
                     <button type="button" v-on:click="edit()" class="btn btn-warning">Edit</button>
                     <button type="button" v-on:click="deleteUser()" class="btn btn-outline-danger ms-1">Delete</button>
+                    <button type="button" v-on:click="logOut()" class="btn btn-outline-info ms-1">Logout</button>
                   </div>
                 </div>
               </div>
