@@ -27,6 +27,7 @@
 import SpinnerLoader from '../components/SpinnerLoaderComponent.vue'
 import { useStore } from 'vuex';
 import {computed} from '@vue/runtime-core';
+import Swal from "sweetalert2";
 export default {
   components: {
     SpinnerLoader
@@ -52,7 +53,7 @@ export default {
       };
       console.log(cartPayload);
       store.dispatch('addToOrders', cartPayload);
-      alert('Product Added Successfully!!!');
+      Swal.fire("Well Done!!! You've  Successfully Added A Product!!!");
     }
     return {
       user,
