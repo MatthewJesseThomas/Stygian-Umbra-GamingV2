@@ -15,7 +15,7 @@
               <h4 class="card-title kage animate-charcter ">Name: <br> {{ product.productName }} <br></h4>
               <h4 class="card-title kage animate-charcter ">ProductID: <br>{{ product.product_id }} </h4>
               <h4 class="card-text kage animate-charcter ">About: <br> {{ product.productDescription }} </h4>
-              <h4 class="card-text kage animate-charcter ">About: <br> {{ product.Price }} </h4>
+              <h4 class="card-text kage animate-charcter ">Price:  <br> R{{ product.Price }} </h4>
               <h4 class="card-text kage animate-charcter ">QTY: <br> {{ product.Quantity }}</h4>
               <a class="btn btn-info" v-on:click="addInCart(product, user)">Add To Cart</a>
             </div>
