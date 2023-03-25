@@ -144,7 +144,7 @@ export default {
 }
 </script>
 <style scoped>
-@media(min-width:800px) {
+@media(max-width:2000px) {
   .table {
     height: 100%;
     overflow-y: hidden;
@@ -169,6 +169,7 @@ export default {
   .table td {
     text-align: right;
     padding-left: 30%;
+    padding-bottom: 3rem;
     text-align: right;
     position: relative;
     width: 100%;
@@ -185,7 +186,7 @@ export default {
     text-align: left;
   }
 }
-@media(max-width:299px) {
+@media(max-width:800px) {
   .table {
     height: 100%;
     overflow-y: hidden;

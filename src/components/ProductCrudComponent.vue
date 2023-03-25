@@ -126,7 +126,7 @@ export default {
 }
 </script>
 <style scoped>
-@media(max-width:299px){
+@media(max-width:2000px){
   .table{
     height: 100%;
     overflow-y: hidden;

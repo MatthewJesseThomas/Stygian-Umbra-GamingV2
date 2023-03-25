@@ -103,7 +103,7 @@ export default {
 }
 </script>
 <style scoped>
-@media(max-width:299px) {
+@media(max-width:2000px) {
   .table {
     height: 100%;
     overflow-y: hidden;
@@ -118,6 +118,7 @@ export default {
   .table tr,
   .table td {
     display: block;
+    width: 80vw;
   }
 
   .table tr {
@@ -127,6 +128,7 @@ export default {
   .table td {
     text-align: right;
     padding-left: 50%;
+    padding-bottom: 6rem;
     text-align: right;
     position: relative;
     width: 100%;
