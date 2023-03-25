@@ -1,6 +1,6 @@
 <template lang="">
     <div class="test">
-        <h1 class="animated-charcter text-light">•Administrator•</h1>
+        <h1 class="animated-charcter text-light display-4">•Admin•</h1>
         <br>
         <h2 class="animated-charcter text-light">•Admin Crud's•</h2>
         <UsersCrudComponent/>
