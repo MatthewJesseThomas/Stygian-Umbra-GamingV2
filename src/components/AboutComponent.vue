@@ -28,7 +28,7 @@
               name="Luntu Sogeyana"
               relation="Developer"
               about="Matthew is Highly resourceful and a go-getting colleague, I have full trust in his ability to work in and under Pressure well, with his apparent sense of Leadership I never feel lost."
-              company="Archie-vailable"
+              company="Archie-vable"
               link="http://localhost:8080/"
             />
           </div>
