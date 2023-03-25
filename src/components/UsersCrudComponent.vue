@@ -90,7 +90,7 @@
     </div>
   </div>
 </div>
-                                <a v-on:click="deleteUser(user)" class="btn btn-danger btn-sm delete">Delete</a>
+                                <a v-on:click="deleteUserBtn(user)" class="btn btn-danger btn-sm delete">Delete</a>
                             </td>
                         </tr>
                     </tbody>
@@ -127,9 +127,9 @@ export default {
       console.log(modalPayload);
 
     }
-    async function deleteUser(user, id) {
-      store.dispatch('deleteUser', id)
-
+    let deleteUserBtn = async (user) => {
+      await store.dispatch('deleteUser', user.user_id);
+      await store.dispatch('fetchUsers');
     }
     //   Swal.fire("Well Done!!!", "You've Successfully Edit User Crud!!!");
     return {
@@ -138,7 +138,7 @@ export default {
       splitDate,
       modalPayload,
       edit,
-      deleteUser
+      deleteUserBtn
     }
   }
 }

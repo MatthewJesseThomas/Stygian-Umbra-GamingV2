@@ -63,7 +63,7 @@
     </div>
   </div>
 </div>
-                                <a href="#" class="btn btn-danger btn-sm delete">Delete</a>
+                                <a v-on:click="deleteCartItem(order)" class="btn btn-danger btn-sm delete">Delete</a>
                             </td>
                         </tr>
                     </tbody>
@@ -94,10 +94,15 @@ export default {
       console.log(payload);
       
     }
+    let deleteCartItem = async (order)=>{
+      await store.dispatch('deleteOrder', order.user_id);
+      await store.dispatch('fetchOrders')
+    }
     return {
       orders,
       edit,
-      payload
+      payload,
+      deleteCartItem
     }
   }
 }
