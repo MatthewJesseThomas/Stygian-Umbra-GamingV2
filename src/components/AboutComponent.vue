@@ -80,7 +80,7 @@
               imgSrc="https://i.postimg.cc/bNL9qq1C/IMG-20221031-WA0016.jpg"
               name="Mishaine Isaacs"
               relation="Developer"
-              about="Matthew is a Multi-faceted Individual, whom I have come to know as a Take-Charge and Work-driven person. If anything working with him has made Him and I grow immensely. "
+              about="Game Zone is the home of games, gadgets and everything in between, get the latest devices and games or build up your collection with with our dated titles, with many genres to choose it's hard to buy everything, enjoy shopping"
               company="GameZone"
               link="http://localhost:8080/"
             />

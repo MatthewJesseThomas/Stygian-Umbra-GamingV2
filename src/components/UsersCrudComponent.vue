@@ -60,7 +60,7 @@
             </div>
             <div class="form-group">
               <label for="exampleInputGender">Gender</label>
-              <input type="number" class="form-control" v-model="modalPayload.gender" id="exampleInputGender" placeholder="Enter Gender">
+              <input type="text" class="form-control" v-model="modalPayload.gender" id="exampleInputGender" placeholder="Enter Gender">
             </div>
             <div class="form-group">
               <label for="exampleInputCellphoneNumber">CellphoneNumber</label>
@@ -90,7 +90,7 @@
     </div>
   </div>
 </div>
-                                <a href="#" class="btn btn-danger btn-sm delete">Delete</a>
+                                <a v-on:click="deleteUser(user)" class="btn btn-danger btn-sm delete">Delete</a>
                             </td>
                         </tr>
                     </tbody>
@@ -115,6 +115,7 @@ export default {
       user_id: "",
       firstName: "",
       lastName: "",
+      gender: "",
       cellphoneNumber: "",
       emailAdd: "",
       userRole: "",
@@ -126,18 +127,64 @@ export default {
       console.log(modalPayload);
 
     }
+    async function deleteUser(user, id) {
+      store.dispatch('deleteUser', id)
+
+    }
     //   Swal.fire("Well Done!!!", "You've Successfully Edit User Crud!!!");
     return {
       user,
       users,
       splitDate,
       modalPayload,
-      edit
+      edit,
+      deleteUser
     }
   }
 }
 </script>
 <style scoped>
+@media(min-width:800px) {
+  .table {
+    height: 100%;
+    overflow-y: hidden;
+  }
+
+  .table thead {
+    display: none;
+  }
+
+  .table,
+  .table body,
+  .table tr,
+  .table td {
+    display: block;
+    width: 80vw;
+  }
+
+  .table tr {
+    margin-bottom: 15px;
+  }
+
+  .table td {
+    text-align: right;
+    padding-left: 30%;
+    text-align: right;
+    position: relative;
+    width: 100%;
+  }
+
+  .table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 80%;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+  }
+}
 @media(max-width:299px) {
   .table {
     height: 100%;
@@ -177,4 +224,5 @@ export default {
     font-weight: bolder;
     text-align: left;
   }
-}</style>
+}
+</style>
