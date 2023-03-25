@@ -112,7 +112,7 @@ export default {
 
       }
       let deleteButton = async(product)=>{
-        await store.dispatch('delete', product.product_id);
+        await store.dispatch('deleteProduct', product.product_id);
         await store.dispatch('fetchProducts');
       }
       // Swal.fire("Well Done!!!", "You've Successfully Edit Products!!!");
