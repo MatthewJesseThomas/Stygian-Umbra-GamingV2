@@ -14,7 +14,7 @@
           <h1 class="card-title"> {{ name }} <br>{{ relation }} </h1>
           <h3 class="card-text kage animate-charcter text-info fs-4">Company: <br>{{ company }}</h3>
           <h3 class="card-text kage animate-charcter fs-5">{{ about }}</h3>
-          <a class="btn btn-info" :href="link">Visit Our Partners</a>
+          <a class="btn btn-info" :href="link" target="_blank">Visit Our Partners</a>
         </div>
       </div>
 </template>
