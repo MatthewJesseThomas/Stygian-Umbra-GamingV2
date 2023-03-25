@@ -56,13 +56,13 @@ export default {
       const spinner = ref(false);
       const router = useRouter();
       let payload = {
-        firstName: "",
-        lastName: "",
-        gender: "",
-        cellphoneNumber: "",
-        emailAdd: "",
-        user_password: "",
-        userProfile: ""
+        firstName: '',
+        lastName: '',
+        gender: '',
+        cellphoneNumber: '',
+        emailAdd: '',
+        user_password: '',
+        userProfile: ''
       };
       async function register(payload){
         spinner.value = !spinner.value;
