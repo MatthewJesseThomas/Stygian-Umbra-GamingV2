@@ -72,7 +72,7 @@
               imgSrc="https://i.postimg.cc/1zH5cqPj/IMG-3573.jpg"
               name="Timothy Jennike"
               relation="Developer"
-              about="We are a E-commerce Business, whom are passionate about the Sale of Quality, Affordable and Latest video games after we give you more than enough details about your chosen game! Adding to a Variety in our Gaming Collection as well as enhancing Usability."
+              about="We are a E-commerce Business, whom are passionate about the Sale of Quality, Affordable and Latest video games after we give you more than enough details about your chosen game! Adding to a Variety in our Gaming Collection as well as enhancing Usability. Established In 2023-07-03, we are Aiming for Excellence online as well as the latest VideoGaming content for our Avid users."
               company="Insert~Coins"
               link="http://localhost:8080/"
             />
