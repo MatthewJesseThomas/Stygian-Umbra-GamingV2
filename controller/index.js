@@ -63,7 +63,7 @@ route.put('/category/:id', bodyParser.json(), (req, res)=>{
 route.delete('/category/:id', (req, res)=>{
     category.deleteCategory(req, res);
 });
-// Category Routes==================================
+// Cart--Orders Routes==================================
 route.post('/orders', bodyParser.json(), (req, res)=>{
     order.addOrder(req, res);
 });
