@@ -11,7 +11,7 @@
     <div class="card col-11 col-sm-4 card bg-dark mx-3 my-3" style="width:400px">
         <img class="card-img-top" :src="imgSrc" alt="Card image">
         <div class="card-body">
-          <h4 class="card-title"> {{ name }} <br>{{ relation }} </h4>
+          <h1 class="card-title"> {{ name }} <br>{{ relation }} </h1>
           <h3 class="card-text kage animate-charcter text-info fs-4">Company: <br>{{ company }}</h3>
           <h3 class="card-text kage animate-charcter fs-5">{{ about }}</h3>
           <a class="btn btn-info" :href="link">Visit Our Partners</a>

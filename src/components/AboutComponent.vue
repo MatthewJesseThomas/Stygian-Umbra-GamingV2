@@ -11,17 +11,19 @@
               imgSrc="https://i.postimg.cc/MTQDqhtg/IMG-3354-3-removebg-preview.png"
               name="Deno Rautenbach"
               relation="Developer"
-              about="Matthew is Highly resourceful and a go-getting colleague, I have full trust in his ability to work in and under Pressure well, with his apparent sense of Leadership I never feel lost."
+              about="Mangako About: Mangako was established by Deno Rautenbach. He sought to bridge the cultural gap between Japan and South Africa. Currently comprised of solely one team member. I would love recruit individuals with the same burning passion. South Africa is behind in a lot of ways, one of those ways is in the arts and culture scene.  How might I approach this problem? Incorporation of Japanese specific comic books known as 'Manga'.
+              Manga are extremely popular in Japan and its reach has journeyed to the west. What my E-commerce site hopes to accomplish is to bring the brilliance and joy of Manga to South Africa by making it readily available. By doing this, I will curate a passion for cross cultural exchange through exciting tales of action, adventures, horror and a lot more… This will include digital as well as physical copies, like Amazon and Crunchyroll merged making it more streamlined for consumers to acquire specific manga all in one place instead of scouring the internet and filtering through sketchy websites. I chose this idea because I have a keen interest in Japan and anything related to Asian and or otherwise anything outside my own culture. This helps me and us grow and have a broader, open, perspective on things in our world"
               company="Mangako"
-              link="http://localhost:8080/"
+              link="https://mangako-deno-rautenbach.netlify.app/"
               />
             <AboutCardComponent
               imgSrc="https://old-profile.netlify.app/img/1667550652766.jpg"
               name="Aneeqa Brown"
               relation="Developer"
-              about="Matthew is a very creative and well-behaved student. He is very driven by knowledge, enjoys working with his classmates, and does well working on his project. He has learned many new tricks in web development and bootstrap 5. I am quite happy with the effort he puts into his work. I recommend him as a developer."
+              about=" Welcome to the Arcadian, you will be able to purchase your skins for guns in games as well as more from our collaborating anime.
+              You can also purchase one of our anime characters to wait in your lobby. May your purchase lead you to victory in your battles Arcadian. I recommend him as Collaborative FullStack Developer."
               company="Arcadian"
-              link="http://localhost:8080/"
+              link="http://arcadian-ea31c.web.app"
             />
             <AboutCardComponent
               imgSrc="https://i.postimg.cc/4yL9TCRv/DSC-3496.jpg"
