@@ -27,7 +27,24 @@
               imgSrc="https://i.postimg.cc/4yL9TCRv/DSC-3496.jpg"
               name="Luntu Sogeyana"
               relation="Developer"
-              about="Matthew is Highly resourceful and a go-getting colleague, I have full trust in his ability to work in and under Pressure well, with his apparent sense of Leadership I never feel lost."
+              about="
+              ABOUT US:
+              
+              This is a website that specializes in providing top-quality Gaming products at affordable prices for gamers. With our expertise in information gathering and resourcefulness, we are committed to delivering exceptional results to our clients.
+
+              OUR MISSION:
+
+              We understand that gaming equipment can be expensive, so our website offers discounted prices to ensure that everyone has access to the tools they need to enjoy their gaming experience to the fullest.
+
+              OUR TEAM:
+
+              Luntu Archie Sogeyana - CEO
+              Mathew Thomas - Collaborator
+              Timothy Jennike - Collaborator
+              Sara Lee - Collaborator
+              CONTACT US:
+
+              If you have any questions or comments, please don't hesitate to get in touch with us. You can reach us by phone at 079 308 6789, or by email at sogeyanaluntu@gmail.com."
               company="Archie-vable"
               link="http://localhost:8080/"
             />
@@ -53,7 +70,7 @@
             />
             <AboutCardComponent
               imgSrc="https://i.postimg.cc/1zH5cqPj/IMG-3573.jpg"
-              name="Timothy"
+              name="Timothy Jennike"
               relation="Developer"
               about="We are a E-commerce Business, whom are passionate about the Sale of Quality, Affordable and Latest video games after we give you more than enough details about your chosen game! Adding to a Variety in our Gaming Collection as well as enhancing Usability."
               company="Insert~Coins"
