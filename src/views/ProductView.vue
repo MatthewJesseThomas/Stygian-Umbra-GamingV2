@@ -4,7 +4,7 @@
   </div>
     <div class="test" >
       <!-- v-if="!loggedInUser" -->
-        <h1 class="animated-charcter text-light">•Our Products•</h1>
+        <h1 class="animated-charcter text-light fs-1">•Our Products•</h1>
         <br>
         <h2 class="animated-charcter text-light">•As Follows•</h2>
         <!-- <ProductComponent/> -->
