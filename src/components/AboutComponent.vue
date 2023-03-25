@@ -44,7 +44,10 @@
               imgSrc="https://i.postimg.cc/JnxkqRcX/C11-Brogan-Gys-2.jpg"
               name="Brogan Gys"
               relation="Developer"
-              about="Knowing Matthew as long as I do, I'm able to gauge his Drive for coding as well as his Personality on a Newly found level as we are from the same Area and for the both of Us to be Developing, I wish him well in all Endeavors."
+              about="Welcome to our company, a leading provider of cutting-edge VR products designed to
+              revolutionize the way people experience immersive entertainment, education, and training.Our VR products are perfect for a wide range of applications, from gaming and entertainment to education and
+              training. They are designed to provide users with an incredibly lifelike experience that allows them to
+              explore new worlds, learn new skills, and have fun in ways that were previously unimaginable."
               company="Virtuverse"
               link="http://localhost:8080/"
             />
@@ -52,7 +55,7 @@
               imgSrc="https://i.postimg.cc/1zH5cqPj/IMG-3573.jpg"
               name="Timothy"
               relation="Developer"
-              about="We are a E-commerce Business, whom are passionate about the Sale of Quality, Affordable and Latest video games after we give you more than enough details about your chosen game!"
+              about="We are a E-commerce Business, whom are passionate about the Sale of Quality, Affordable and Latest video games after we give you more than enough details about your chosen game! Adding to a Variety in our Gaming Collection as well as enhancing Usability."
               company="Insert~Coins"
               link="http://localhost:8080/"
             />
