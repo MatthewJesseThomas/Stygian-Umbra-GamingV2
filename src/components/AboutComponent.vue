@@ -12,6 +12,7 @@
               name="Deno Rautenbach"
               relation="Developer"
               about="Matthew is Highly resourceful and a go-getting colleague, I have full trust in his ability to work in and under Pressure well, with his apparent sense of Leadership I never feel lost."
+              company="Mangako"
               link="http://localhost:8080/"
               />
             <AboutCardComponent
@@ -19,6 +20,7 @@
               name="Aneeqa Brown"
               relation="Developer"
               about="Matthew is a very creative and well-behaved student. He is very driven by knowledge, enjoys working with his classmates, and does well working on his project. He has learned many new tricks in web development and bootstrap 5. I am quite happy with the effort he puts into his work. I recommend him as a developer."
+              company="Arcadian"
               link="http://localhost:8080/"
             />
             <AboutCardComponent
@@ -26,6 +28,7 @@
               name="Luntu Sogeyana"
               relation="Developer"
               about="Matthew is Highly resourceful and a go-getting colleague, I have full trust in his ability to work in and under Pressure well, with his apparent sense of Leadership I never feel lost."
+              company="Archie-vailable"
               link="http://localhost:8080/"
             />
           </div>
@@ -42,6 +45,7 @@
               name="Brogan Gys"
               relation="Developer"
               about="Knowing Matthew as long as I do, I'm able to gauge his Drive for coding as well as his Personality on a Newly found level as we are from the same Area and for the both of Us to be Developing, I wish him well in all Endeavors."
+              company="Virtuverse"
               link="http://localhost:8080/"
             />
             <AboutCardComponent

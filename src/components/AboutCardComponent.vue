@@ -2,9 +2,9 @@
     <div class="col-11 col-sm-4 card bg-dark mx-3 my-3" style="width: 18rem;">
         <img :src="imgSrc" class="card-img-top" alt="Meh" loading="lazy">
         <div class="card-body">
-          <h2 class="card-title kage animate-charcter"> {{ name }} <br>{{ relation }} </h2>
-          <h3 class="card-text kage animate-charcter text-info">Company: <br>{{ company }}</h3>
-          <h3 class="card-text kage animate-charcter">{{ about }}</h3>
+          <h2 class="card-title kage animate-charcter fs-3"> {{ name }} <br>{{ relation }} </h2>
+          <h3 class="card-text kage animate-charcter text-info fs-4">Company: <br>{{ company }}</h3>
+          <h3 class="card-text kage animate-charcter fs-5">{{ about }}</h3>
           <a class="btn btn-info" :href="link">Visit Our Partners</a>
         </div>
     </div>
