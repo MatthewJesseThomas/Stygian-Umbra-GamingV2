@@ -37,7 +37,7 @@ nav a.router-link-exact-active {
 }
 body {
   background-image: linear-gradient(-245deg, rgb(3, 255, 167) 45%, rgb(0, 157, 188,1) 45%, rgb(5, 3, 63, 1) 75%, rgb(5, 94, 90) 35%);
-  /*background-image: url(../src/assets/ChaosIce.jpg);*/
+  background-image: url(../src/assets/2620349.jpg);
   width: 100%;
   height: auto;
   background-repeat: no-repeat !important;

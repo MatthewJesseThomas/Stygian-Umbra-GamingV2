@@ -14,7 +14,7 @@
     <br>
     <h3 class="display-4 text-white">“Aiming for a Tactful and well Formulated Approach with Angular Intentions For our Patrons and Community measured with reference” - ZileD-ArcHorse-Development, Matthew Thomas...</h3>
   </div>
-<div class="home mt-1 mx-3">
+<!-- <div class="home mt-1 mx-3">
     <section class="container-fluid sect">
       <div class="wrapper text-center">
           <br>
@@ -74,7 +74,7 @@
           </div>
       </div>
   </section>
-</div>
+</div> -->
 </template>
 
 <script>
@@ -105,7 +105,8 @@ body{
   margin: 0;
   background-color: #000;
   align-items: center;
-  min-height: 100vh
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 h1, h2{
   color: #484848;
